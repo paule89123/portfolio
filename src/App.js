@@ -31,19 +31,19 @@ function App() {
   return (
     <div id="app">
         <Switch>
-            <Route exact path="/">
+            <Route exact path={process.env.PUBLIC_URL + "/"}>
                 <Header loc="home" />
                 <Home />
             </Route>
-            <Route path="/about">
+            <Route path={process.env.PUBLIC_URL + "/about"}>
                 <Header loc="about"/>
                 <About />
             </Route>
-            <Route path="/cv">
+            <Route path={process.env.PUBLIC_URL + "/cv"}>
                 <Header loc="cv"/>
                 <CV />
             </Route>
-            <Route path="/joanne-site">
+            <Route path={process.env.PUBLIC_URL + "/joanne-site"}>
                 <Header loc="joanne-site"/>
                 <PortfolioPage
                     video={joanneSite}
@@ -53,7 +53,7 @@ function App() {
                     code={joanneSiteCode}
                 />
             </Route>
-            <Route path="/coverful">
+            <Route path={process.env.PUBLIC_URL + "/coverful"}>
                 <Header loc="coverful"/>
                 <PortfolioPage
                     video={coverful}
@@ -63,7 +63,7 @@ function App() {
                     code={coverfulCode}
                 />
             </Route>
-            <Route path="/calculator-app">
+            <Route path={process.env.PUBLIC_URL + "/calculator-app"}>
                 <Header loc="calculator-app"/>
                 <PortfolioPage
                     img={calculator}
@@ -73,7 +73,7 @@ function App() {
                     code={calculatorCode}
                 />
             </Route>
-            <Route path="/reminders-app">
+            <Route path={process.env.PUBLIC_URL + "/reminders-app"}>
                 <Header loc="reminders-app"/>
                 <PortfolioPage
                     video={reminders}
