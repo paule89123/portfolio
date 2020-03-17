@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.98cd3fbd.chunk.css",
+    "main.js": "/portfolio/static/js/main.5a4488fe.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5a4488fe.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.85230087.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.85230087.js.map",
+    "static/js/2.f5c4f9b9.chunk.js": "/portfolio/static/js/2.f5c4f9b9.chunk.js",
+    "static/js/2.f5c4f9b9.chunk.js.map": "/portfolio/static/js/2.f5c4f9b9.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.a9419de53a4a8f80374e6f3236b12e9c.js": "/portfolio/precache-manifest.a9419de53a4a8f80374e6f3236b12e9c.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.98cd3fbd.chunk.css.map": "/portfolio/static/css/main.98cd3fbd.chunk.css.map",
+    "static/js/2.f5c4f9b9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f5c4f9b9.chunk.js.LICENSE.txt",
+    "static/media/CV.svg": "/portfolio/static/media/CV.974bb24b.svg",
+    "static/media/App.css": "/portfolio/static/media/TiemposHeadline-Semibold.36153d46.otf",
+    "static/media/about-placeholder.jpg": "/portfolio/static/media/about-placeholder.191fc87c.jpg",
+    "static/media/calculator-large.jpg": "/portfolio/static/media/calculator-large.1a319912.jpg",
+    "static/media/calculator.png": "/portfolio/static/media/calculator.66e806ee.png",
+    "static/media/codewars.svg": "/portfolio/static/media/codewars.3678b31c.svg",
+    "static/media/coverful-cropped.mp4": "/portfolio/static/media/coverful-cropped.826230bb.mp4",
+    "static/media/coverful.png": "/portfolio/static/media/coverful.5d560a02.png",
+    "static/media/github.svg": "/portfolio/static/media/github.192a6620.svg",
+    "static/media/joanne-site-cropped.mp4": "/portfolio/static/media/joanne-site-cropped.9184231e.mp4",
+    "static/media/joanne.png": "/portfolio/static/media/joanne.bbc8d09f.png",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.5b238434.svg",
+    "static/media/me-fade.png": "/portfolio/static/media/me-fade.0b0a036b.png",
+    "static/media/me.png": "/portfolio/static/media/me.c1162375.png",
+    "static/media/menu.svg": "/portfolio/static/media/menu.a450cc10.svg",
+    "static/media/reminders-cropped.mp4": "/portfolio/static/media/reminders-cropped.2d6d3308.mp4",
+    "static/media/reminders.png": "/portfolio/static/media/reminders.842126b8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85230087.js",
+    "static/js/2.f5c4f9b9.chunk.js",
+    "static/css/main.98cd3fbd.chunk.css",
+    "static/js/main.5a4488fe.chunk.js"
+  ]
+}
