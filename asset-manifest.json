@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.28ec2fae.chunk.css",
-    "main.js": "/portfolio/static/js/main.fa723bd9.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.fa723bd9.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.51bb6a1c.chunk.css",
+    "main.js": "/portfolio/static/js/main.0c826106.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0c826106.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.85230087.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.85230087.js.map",
     "static/js/2.f5c4f9b9.chunk.js": "/portfolio/static/js/2.f5c4f9b9.chunk.js",
     "static/js/2.f5c4f9b9.chunk.js.map": "/portfolio/static/js/2.f5c4f9b9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.4be9e4918c2237a3962a94f26d9a9c0c.js": "/portfolio/precache-manifest.4be9e4918c2237a3962a94f26d9a9c0c.js",
+    "precache-manifest.008c16d79f6303f7417b96ed4f227ecd.js": "/portfolio/precache-manifest.008c16d79f6303f7417b96ed4f227ecd.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.28ec2fae.chunk.css.map": "/portfolio/static/css/main.28ec2fae.chunk.css.map",
+    "static/css/main.51bb6a1c.chunk.css.map": "/portfolio/static/css/main.51bb6a1c.chunk.css.map",
     "static/js/2.f5c4f9b9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f5c4f9b9.chunk.js.LICENSE.txt",
     "static/media/CV.svg": "/portfolio/static/media/CV.3de6906d.svg",
     "static/media/App.css": "/portfolio/static/media/TiemposHeadline-Semibold.36153d46.otf",
@@ -24,6 +24,7 @@
     "static/media/joanne-site-cropped.mp4": "/portfolio/static/media/joanne-site-cropped.9184231e.mp4",
     "static/media/joanne.png": "/portfolio/static/media/joanne.bbc8d09f.png",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.5b238434.svg",
+    "static/media/mail.svg": "/portfolio/static/media/mail.bfe8a6b5.svg",
     "static/media/me-fade.png": "/portfolio/static/media/me-fade.0b0a036b.png",
     "static/media/me.png": "/portfolio/static/media/me.c1162375.png",
     "static/media/menu.svg": "/portfolio/static/media/menu.a450cc10.svg",
@@ -33,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.85230087.js",
     "static/js/2.f5c4f9b9.chunk.js",
-    "static/css/main.28ec2fae.chunk.css",
-    "static/js/main.fa723bd9.chunk.js"
+    "static/css/main.51bb6a1c.chunk.css",
+    "static/js/main.0c826106.chunk.js"
   ]
 }
