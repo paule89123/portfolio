@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d90684074d90b99532c113815895db59",
+    "revision": "8047c9556169847f73b26853082fd547",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "dbd927c86b753a03c88c",
-    "url": "/portfolio/static/css/main.c0a32dc4.chunk.css"
+    "revision": "388da33fabc9a020250b",
+    "url": "/portfolio/static/css/main.c66f72be.chunk.css"
   },
   {
     "revision": "3f71eaad5253fb6969e9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.f5c4f9b9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dbd927c86b753a03c88c",
-    "url": "/portfolio/static/js/main.b9510e76.chunk.js"
+    "revision": "388da33fabc9a020250b",
+    "url": "/portfolio/static/js/main.ba902fb4.chunk.js"
   },
   {
     "revision": "bdca0bbe2605fb6d5426",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/TiemposHeadline-Semibold.36153d46.otf"
   },
   {
-    "revision": "191fc87c1797f5a75bb6a73301994c51",
-    "url": "/portfolio/static/media/about-placeholder.191fc87c.jpg"
+    "revision": "30fdc9d9413a52ab8ef343d4bcf22857",
+    "url": "/portfolio/static/media/about2.30fdc9d9.jpg"
   },
   {
     "revision": "1a319912a8e144099e85839caa581834",
