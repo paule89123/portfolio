@@ -13,14 +13,12 @@ function Text(props) {
 				</div>
 			</div>
 
-			{props.page === 'about' ? 
+			{props.page === 'about' && 
 				<div className="interests">
 					<Interest title="CURRENTLY READING" subtitle="The Complete Manual of Typography" subtitle2="by James Felici" />
 					<Interest title="CURRENTLY LEARNING" subtitle="Figma" subtitle2="design app" />
 					<Interest title="CURRENTLY LISTENING TO" subtitle="Making Sense" subtitle2="a podcast by Sam Harris" />
 				</div>
-				:
-				null
 			}
 		</div>
 	)

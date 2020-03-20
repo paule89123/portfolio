@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import './styles.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import About from './components/About'
 import CV from './components/CV'
+import Contact from './components/Contact'
 import PortfolioPage from './components/PortfolioPage'
 import { Switch, Route } from 'react-router-dom'
 import joanneSite from './videos/joanne-site-cropped.mp4'
@@ -14,18 +15,31 @@ import calculator from './images/calculator-large.jpg'
 
 function App() {
 
-  const joanneSiteTitle = <div>joanne-evans<span className="blue-text">.</span>com</div>
-  const coverfulTitle = <div>Coverful<span className="blue-text">.</span></div>
-  const remindersTitle = <div>Reminders<span className="blue-text">.</span></div>
-  const calculatorTitle = <div>Calculator<span className="blue-text">.</span></div>
+  const joanneSiteTitle = <a className="large-link" href="https://paule89123.github.io/Joanne-site" target="_blank" rel="noopener"><div>joanne-evans<span className="blue-text">.</span>com</div></a>
+
+  const coverfulTitle = <a className="large-link" href="https://paule89123.github.io/coverful/" target="_blank" rel="noopener"><div>Coverful<span className="blue-text">.</span></div></a>
+
+  const calculatorTitle = <a className="large-link" href="https://paule89123.github.io/calculator" target="_blank" rel="noopener"><div>Calculator<span className="blue-text">.</span></div></a>
+
+  const remindersTitle = <a className="large-link" href="https://paule89123.github.io/reminders-app" target="_blank" rel="noopener"><div>Reminders<span className="blue-text">.</span></div></a>
+
   
-  const joanneSiteCode = <div><a className="link" href="https://github.com/paule89123/Joanne-site" target="_blank" rel="noopener">See the code</a></div>
+  const joanneSiteCode = <span><a className="link" href="https://github.com/paule89123/Joanne-site" target="_blank" rel="noopener">See the code</a></span>
   
-  const coverfulCode = <div><a className="link" href="https://github.com/paule89123/coverful" target="_blank" rel="noopener">See the code</a></div>
+  const coverfulCode = <span><a className="link" href="https://github.com/paule89123/coverful" target="_blank" rel="noopener">See the code</a></span>
   
-  const calculatorCode = <div><a className="link" href="https://github.com/paule89123/calculator" target="_blank" rel="noopener">See the code</a></div>
+  const calculatorCode = <span><a className="link" href="https://github.com/paule89123/calculator" target="_blank" rel="noopener">See the code</a></span>
   
-  const remindersCode = <div><a className="link" href="https://github.com/paule89123/reminders-app" target="_blank" rel="noopener">See the code</a></div>
+  const remindersCode = <span><a className="link" href="https://github.com/paule89123/reminders-app" target="_blank" rel="noopener">See the code</a></span>
+
+
+  const joanneSiteLink = <span><a className="link" href="https://paule89123.github.io/Joanne-site/" target="_blank" rel="noopener">joanne-evans.com</a></span>
+  
+  const coverfulLink = <span><a className="link" href="https://paule89123.github.io/coverful/" target="_blank" rel="noopener">coverful.co.uk</a></span>
+  
+  const calculatorLink = <span><a className="link" href="https://paule89123.github.io/calculator/" target="_blank" rel="noopener">See the web app</a></span>
+  
+  const remindersLink = <span><a className="link" href="https://paule89123.github.io/reminders-app/" target="_blank" rel="noopener">See the web app</a></span>
 
 
   return (
@@ -36,52 +50,56 @@ function App() {
                 <Home />
             </Route>
             <Route path={process.env.PUBLIC_URL + "/about"}>
-                <Header loc="about"/>
+                <Header />
                 <About />
             </Route>
             <Route path={process.env.PUBLIC_URL + "/cv"}>
-                <Header loc="cv"/>
+                <Header />
                 <CV />
             </Route>
             <Route path={process.env.PUBLIC_URL + "/joanne-site"}>
-                <Header loc="joanne-site"/>
+                <Header />
                 <PortfolioPage
                     video={joanneSite}
                     title={joanneSiteTitle}
                     id="joanne-site"
-                    description="joanne-site"
                     code={joanneSiteCode}
+                    link={joanneSiteLink}
                 />
             </Route>
             <Route path={process.env.PUBLIC_URL + "/coverful"}>
-                <Header loc="coverful"/>
+                <Header />
                 <PortfolioPage
                     video={coverful}
                     title={coverfulTitle}
                     id="coverful"
-                    description="coverful"
                     code={coverfulCode}
+                    link={coverfulLink}
                 />
             </Route>
             <Route path={process.env.PUBLIC_URL + "/calculator-app"}>
-                <Header loc="calculator-app"/>
+                <Header />
                 <PortfolioPage
                     img={calculator}
                     title={calculatorTitle}
                     id="calculator"
-                    description="calculator"
                     code={calculatorCode}
+                    link={calculatorLink}
                 />
             </Route>
             <Route path={process.env.PUBLIC_URL + "/reminders-app"}>
-                <Header loc="reminders-app"/>
+                <Header />
                 <PortfolioPage
                     video={reminders}
                     title={remindersTitle}
                     id="reminders"
-                    description="reminders"
                     code={remindersCode}
+                    link={remindersLink}
                 />
+            </Route>
+            <Route path={process.env.PUBLIC_URL + "/contact"}>
+                <Header />
+                <Contact />
             </Route>
         </Switch>
         <Footer />

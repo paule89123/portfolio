@@ -1,0 +1,41 @@
+header {
+    font-family: TiemposHeadline-Semibold, serif;
+    font-size: 24px;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 1px;
+    a {
+      text-decoration: none;
+      color: $textColor;
+    }
+  }
+
+
+  nav {
+    align-self: flex-end;
+    a {
+      font-family: Karla-Bold, sans-serif;
+      font-size: 16px;
+      margin-left: 37px;
+      transition: 200ms ease-out;
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+  
+  #nav-large-devices {
+    display: block;
+  }
+  #nav-small-devices {
+    display: none;
+  }
+  #burger {
+    width: 16px;
+    height: 29px;
+    display: none;
+    cursor: pointer;
+  }
+  .linkscroll {
+    cursor: pointer;
+  }

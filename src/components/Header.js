@@ -46,7 +46,7 @@ function Header(props) {
     return (
         <header>
 
-            <div id="nav-container-for-small-devices">
+            <div id="logo-and-burger-container">
                 <Link to={process.env.PUBLIC_URL + "/"}>paulevans</Link>
                 <img onClick={toggleMenu} id="burger" src={menuIcon} alt="menu" />
             </div>
@@ -97,7 +97,7 @@ function Header(props) {
                 <div className="nav__link" onClick={removeMenu}>
                     {props.loc === "home" ? 
                         <LinkScroll 
-                            to={process.env.PUBLIC_URL + "portfolio"}
+                            to="portfolio"
                             activeClass="active"
                             className="linkscroll"
                             spy={true}

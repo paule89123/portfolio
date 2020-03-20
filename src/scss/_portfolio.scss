@@ -1,0 +1,63 @@
+#spacer {
+    height: 48px;
+    width: 100%;
+  }
+  
+  #portfolio {
+    padding-top: 39px;
+  }
+  
+  .heading {
+    font-size: 48px;
+    padding-bottom: 48px;
+    font-family: TiemposHeadline-Semibold, serif;
+  }
+  
+  .blue-text {
+    color: $blue;
+  }
+  
+  .card {
+    margin-bottom: 43px;
+    .card__image {
+      width: 100%;
+      border-radius: 16px;
+      transition: 200ms ease;
+      &:hover {
+        transform: scaleX(1.05) scaleY(1.05);
+        border-radius: 16px;
+        box-shadow: 0 4px 16px 0 rgba(0,0,0,.16);
+      }
+    }
+    .card__title {
+      font-size: 18px;
+      text-align: center;
+      padding-top: 12px;
+      font-family: Karla-Bold;
+      letter-spacing: -.5px;
+      a {
+        text-decoration: none;
+        color: $textColor;
+      }
+    }
+    .card__subtitle {
+      text-align: center;
+      font-size: 16px;
+      font-family: Karla-BoldItalic, sans-serif;
+    }
+    .card__subtitle a {
+      text-decoration: none;
+      color: rgba(0,0,0,.23);
+    }
+  }
+
+  .invisible {
+    opacity: 0;
+    transform: translateY(68px);
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1200ms ease;
+  }

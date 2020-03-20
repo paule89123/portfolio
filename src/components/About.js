@@ -1,11 +1,13 @@
 import React from 'react';
-import about from '../images/about-placeholder.jpg'
+import about from '../images/about2.jpg'
 import Text from './Text'
 
 function About() {
 	return (
 		<div>
-			<img alt="" className="about-img" src={about} />
+			<div className="about-img-container">
+				<img alt="" className="about-img" src={about} />
+			</div>
 
 			<Text title=<div>About Me<span className="blue-text">.</span></div> page="about"> 
 				<div>

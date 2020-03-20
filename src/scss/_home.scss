@@ -1,0 +1,45 @@
+.home-columns__left-column {
+    padding-right: 20px;
+    width: 50%;
+}
+  
+.home-columns__right-column {
+    padding-left: 20px;
+    width: 50%;
+}
+  
+.display-text {
+    height: 608px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    .display-text__1 {
+      font-family: Karla-Bold, sans-serif;
+      color: silver;
+      font-size: 28px;
+    }
+    .display-text__2 {
+      font-family: TiemposHeadline-Semibold, serif;
+      color: $textColor;
+      font-size: 72px;
+    }
+    .display-text__3 {
+      font-family: Karla-Regular, sans-serif;
+      color: silver;
+      font-size: 28px;
+      line-height: 30px;
+    }
+}
+  
+.cartoon-container {
+    height: 608px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 48px;
+    img {
+      width: 100%;
+    }
+}

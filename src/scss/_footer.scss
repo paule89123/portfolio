@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    .codewars {
+        width: 20px;
+        height: 20px;
+        margin: 0 16px;
+        filter: brightness(100) invert(1);
+    }
+    .github {
+        width: 20px;
+        height: 20px;
+        margin: 0 16px;
+    }
+    .mail-icon {
+        width: 19px;
+        height: 19px;
+        margin: 0 16px;
+    }
+}

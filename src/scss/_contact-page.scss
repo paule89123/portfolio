@@ -1,0 +1,131 @@
+#contact {
+  margin-top: 22px;
+  padding-bottom: 75px;
+  padding-top: 80px;
+}
+    
+#contact-heading {
+  width: 100%;
+}
+
+#contact-left-column {
+  width: 50%;
+  padding-right: 40px;
+  font-size: 18px;
+  font-family: Karla-Regular, sans-serif;
+  line-height: 32px;
+  letter-spacing: -.25px;
+}
+
+#contact-right-column {
+  width: 50%;
+  padding-left: 40px;
+  padding-top: 65px;
+  font-size: 18px;
+  font-family: Karla-Bold, sans-serif;
+  line-height: 26px;
+  letter-spacing: -.25px;
+  border-radius: 16px;
+}
+
+#contact-right-column form {
+  width: 100%;  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-container {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  font-family: Karla-Bold, sans-serif;
+  margin-bottom: 14px;
+}
+
+form input, textarea {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 28px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  font-family: Karla-Regular, sans-serif;
+  border-bottom: 1px solid black;
+}
+
+textarea {
+  resize: none;
+  position: relative;
+  top: 50px;
+  border: 1px solid black;
+  height: 120px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#submit {
+  border: 1px solid black;
+  padding: 10px;
+  position: relative;
+  font-family: Karla-Bold, sans-serif;
+  height: auto;
+  border-radius: 5px;
+}
+
+.submit-container {
+  margin-top: 150px;
+}
+
+#submit:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  height: auto;
+}
+
+form label {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  
+  pointer-events: none;
+  width: 100%;
+  height: 32px;
+  display: inline-flex;
+}
+
+.label-content {
+  transition: 0.3s ease;
+
+}
+
+input:focus + label .label-content, input:not(:placeholder-shown) + label .label-content {
+  transform: translateY(-80%);
+  font-size: 16px;
+  color: #55bbe0;
+}
+
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 5px;
+}
+
+
+@media (max-width: 992px) {
+  #contact-left-column {
+    width: 100%;
+    padding-right: 0px;
+  }
+  #contact-right-column {
+    width: 100%;
+    padding-left: 0px;
+  }
+}

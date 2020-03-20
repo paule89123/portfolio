@@ -1,0 +1,28 @@
+.portfolio-page {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    .portfolio-page__media {
+        width: 100%;
+        margin: 20px 0 45px;
+        border-radius: 2px;
+        border: 1px solid rgba(0,0,0,0.1);
+        outline: none;
+    }
+    #large-calculator-img {
+        border: none;
+        width: 100%;
+    }
+    .large-link {
+        color: $textColor;
+        border-style: none none dashed;
+        text-decoration: none;
+        border-width: 1px;
+    }
+    .link {
+        color: rgb(126,126,126);
+        border-style: none none dashed;
+        text-decoration: none;
+        border-width: 1px;
+      }
+}

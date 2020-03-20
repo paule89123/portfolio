@@ -5,6 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 import codewars from '../images/codewars.svg';
 import github from '../images/github.svg';
 import linkedin from '../images/linkedin.svg';
+import mail from '../images/mail.svg';
 
 function Footer() {
     return (
@@ -15,9 +16,9 @@ function Footer() {
             <a target="_blank" rel="noopener" href="https://github.com/paule89123">
                 <img alt="link to my github profile" className="github" src={github} />
             </a>
-            <a target="_blank" rel="noopener" href="https://uk.linkedin.com/in/paul-evans-69b0a356">
-                <img alt="link to my linkedin profile" className="linkedin" src={linkedin} />
-            </a>
+            <Link to={process.env.PUBLIC_URL + "/contact"}>
+                <img alt="contact" className="mail-icon" src={mail} />
+            </Link>
         </footer>
     )
 }

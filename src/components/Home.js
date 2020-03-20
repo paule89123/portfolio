@@ -97,7 +97,7 @@ function Home() {
                                 img={coverful}
                                 alt="Screenshot of coverful.co.uk"
                                 title="coverful.co.uk"
-                                subtitle="E-commerce site"
+                                subtitle="e-commerce site"
                                 link="/coverful"
                             />
                     </div>
