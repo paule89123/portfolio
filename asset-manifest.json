@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2ccb153f.chunk.css",
-    "main.js": "/portfolio/static/js/main.80588826.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.80588826.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.353ae706.chunk.css",
+    "main.js": "/portfolio/static/js/main.e1b7e235.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e1b7e235.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.85230087.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.85230087.js.map",
-    "static/js/2.f5c4f9b9.chunk.js": "/portfolio/static/js/2.f5c4f9b9.chunk.js",
-    "static/js/2.f5c4f9b9.chunk.js.map": "/portfolio/static/js/2.f5c4f9b9.chunk.js.map",
+    "static/js/2.a6fe9608.chunk.js": "/portfolio/static/js/2.a6fe9608.chunk.js",
+    "static/js/2.a6fe9608.chunk.js.map": "/portfolio/static/js/2.a6fe9608.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.736ec23bcd3788a2b6b8f3061c331885.js": "/portfolio/precache-manifest.736ec23bcd3788a2b6b8f3061c331885.js",
+    "precache-manifest.56be341744d8e4a1d294ed95fa79f408.js": "/portfolio/precache-manifest.56be341744d8e4a1d294ed95fa79f408.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.2ccb153f.chunk.css.map": "/portfolio/static/css/main.2ccb153f.chunk.css.map",
-    "static/js/2.f5c4f9b9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f5c4f9b9.chunk.js.LICENSE.txt",
+    "static/css/main.353ae706.chunk.css.map": "/portfolio/static/css/main.353ae706.chunk.css.map",
+    "static/js/2.a6fe9608.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a6fe9608.chunk.js.LICENSE.txt",
     "static/media/CV.svg": "/portfolio/static/media/CV.0c0c95e4.svg",
     "static/media/styles.css": "/portfolio/static/media/TiemposHeadline-Semibold.36153d46.otf",
     "static/media/about2.jpg": "/portfolio/static/media/about2.30fdc9d9.jpg",
@@ -29,12 +29,15 @@
     "static/media/me.png": "/portfolio/static/media/me.c1162375.png",
     "static/media/menu.svg": "/portfolio/static/media/menu.a450cc10.svg",
     "static/media/reminders-cropped.mp4": "/portfolio/static/media/reminders-cropped.2d6d3308.mp4",
-    "static/media/reminders.png": "/portfolio/static/media/reminders.842126b8.png"
+    "static/media/reminders.png": "/portfolio/static/media/reminders.842126b8.png",
+    "static/media/spotify-playlist-maker-cropped.mp4": "/portfolio/static/media/spotify-playlist-maker-cropped.5b1e6bb0.mp4",
+    "static/media/spotify-playlist-maker.gif": "/portfolio/static/media/spotify-playlist-maker.770da793.gif",
+    "static/media/spotify.png": "/portfolio/static/media/spotify.829bf4b5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.85230087.js",
-    "static/js/2.f5c4f9b9.chunk.js",
-    "static/css/main.2ccb153f.chunk.css",
-    "static/js/main.80588826.chunk.js"
+    "static/js/2.a6fe9608.chunk.js",
+    "static/css/main.353ae706.chunk.css",
+    "static/js/main.e1b7e235.chunk.js"
   ]
 }

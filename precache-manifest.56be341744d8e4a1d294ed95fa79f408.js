@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "adf660a267c3fe4d228ba52b8bdad311",
+    "revision": "b883d93946ab4e749902b873b9423ba9",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c2c60abc0acd28806279",
-    "url": "/portfolio/static/css/main.2ccb153f.chunk.css"
+    "revision": "4cb280445510df9aed71",
+    "url": "/portfolio/static/css/main.353ae706.chunk.css"
   },
   {
-    "revision": "3f71eaad5253fb6969e9",
-    "url": "/portfolio/static/js/2.f5c4f9b9.chunk.js"
+    "revision": "d3b27693f4e6d2842168",
+    "url": "/portfolio/static/js/2.a6fe9608.chunk.js"
   },
   {
     "revision": "e9a45d9472c063c8a1c023664dfc3c9f",
-    "url": "/portfolio/static/js/2.f5c4f9b9.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.a6fe9608.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c2c60abc0acd28806279",
-    "url": "/portfolio/static/js/main.80588826.chunk.js"
+    "revision": "4cb280445510df9aed71",
+    "url": "/portfolio/static/js/main.e1b7e235.chunk.js"
   },
   {
     "revision": "bdca0bbe2605fb6d5426",
@@ -106,5 +106,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "842126b8a0fcf7f4fffbc7724d7cadf5",
     "url": "/portfolio/static/media/reminders.842126b8.png"
+  },
+  {
+    "revision": "5b1e6bb0333658d3269461e524987c73",
+    "url": "/portfolio/static/media/spotify-playlist-maker-cropped.5b1e6bb0.mp4"
+  },
+  {
+    "revision": "770da793214e3f90d0ebca3878ffe2e8",
+    "url": "/portfolio/static/media/spotify-playlist-maker.770da793.gif"
+  },
+  {
+    "revision": "829bf4b545a2674f8260c232086c8415",
+    "url": "/portfolio/static/media/spotify.829bf4b5.png"
   }
 ]);
