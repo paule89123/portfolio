@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29b265f5ff23cd37f947a964b0e29b1f",
+    "revision": "b6107caab174fbd0b967ae940c580cc6",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "3bcbc61901f1e6656ef5",
+    "revision": "708960fbba53d4220f9b",
     "url": "/portfolio/static/css/main.353ae706.chunk.css"
   },
   {
-    "revision": "56806b00bb803e7eacef",
-    "url": "/portfolio/static/js/2.8309fc33.chunk.js"
+    "revision": "937131dc2f541e9f948b",
+    "url": "/portfolio/static/js/2.2a115c89.chunk.js"
   },
   {
     "revision": "e9a45d9472c063c8a1c023664dfc3c9f",
-    "url": "/portfolio/static/js/2.8309fc33.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.2a115c89.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3bcbc61901f1e6656ef5",
-    "url": "/portfolio/static/js/main.c5780e96.chunk.js"
+    "revision": "708960fbba53d4220f9b",
+    "url": "/portfolio/static/js/main.df20185c.chunk.js"
   },
   {
     "revision": "bdca0bbe2605fb6d5426",
@@ -49,11 +49,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "1a319912a8e144099e85839caa581834",
-    "url": "/portfolio/static/media/calculator-large.1a319912.jpg"
-  },
-  {
-    "revision": "66e806ee9b233c45db04be28029f046c",
-    "url": "/portfolio/static/media/calculator.66e806ee.png"
+    "url": "/portfolio/static/media/calculator.1a319912.jpg"
   },
   {
     "revision": "3678b31c1d244c38265b1484b11bdb64",
@@ -68,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/coverful.44f99b3b.gif"
   },
   {
-    "revision": "5d560a0233749ff68b10c4c2409c8e64",
-    "url": "/portfolio/static/media/coverful.5d560a02.png"
+    "revision": "c4553c4eeec2d5cabf99c7fafa3156e8",
+    "url": "/portfolio/static/media/coverful.c4553c4e.png"
   },
   {
     "revision": "192a6620a687a9e7e51c0037973a1547",
@@ -84,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/joanne-site.679f996e.gif"
   },
   {
-    "revision": "bbc8d09ff892b180290217b057319f2a",
-    "url": "/portfolio/static/media/joanne.bbc8d09f.png"
+    "revision": "aa3392b052f07355d502f9c9c63e9487",
+    "url": "/portfolio/static/media/joanne.aa3392b0.png"
   },
   {
     "revision": "5b238434e2862c877f08572b96c0ef7b",
