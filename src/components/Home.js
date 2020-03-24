@@ -2,8 +2,9 @@ import React, { useEffect } from 'react';
 import PortfolioItem from './PortfolioItem'
 import coverful from '../images/coverful.png'
 import joanne from '../images/joanne.png'
-import calculator from '../images/calculator.png'
+import calculator from '../images/calculator.jpg'
 import reminders from '../images/reminders.png'
+import spotify from '../images/spotify.png'
 import me from '../images/me.png'
 import meFade from '../images/me-fade.png'
 import $ from 'jquery'
@@ -22,6 +23,7 @@ function Home() {
         var scrollZone3 = $('.fade3').position().top - 660;
         var scrollZone4 = $('.fade4').position().top - 660;
         var scrollZone5 = $('.fade5').position().top - 660;
+        var scrollZone6 = $('.fade6').position().top - 660;
 
         if (scrollZone1 < windowTop) {
             $('.fade1').addClass('visible');
@@ -42,6 +44,10 @@ function Home() {
         if (scrollZone5 < windowTop) {
             $('.fade5').addClass('visible');
             $('.fade5').removeClass('invisible');
+        }
+        if (scrollZone6 < windowTop) {
+            $('.fade6').addClass('visible');
+            $('.fade6').removeClass('invisible');
         }
     }
 
@@ -108,6 +114,15 @@ function Home() {
                                 title="Reminders"
                                 subtitle="Web app"
                                 link="/reminders-app"
+                            />
+                    </div>
+                    <div className="fade6 invisible">
+                            <PortfolioItem 
+                                img={spotify}
+                                alt="Screenshot of Spotify playlist maker"
+                                title="Spotify Playlist Maker"
+                                subtitle="Web app"
+                                link="/spotify-playlist-maker"
                             />
                     </div>
                 </div>

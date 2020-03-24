@@ -40,6 +40,13 @@ header,
  flex-wrap: wrap;
 }
 
+.link {
+  color: rgb(126,126,126);
+  border-style: none none dashed;
+  text-decoration: none;
+  border-width: 1px;
+}
+
 .active {
   color: $blue;
 }

@@ -386,6 +386,14 @@ textarea {
   outline: none;
 }
 
+.portfolio-page .gif {
+  display: none;
+}
+
+.portfolio-page .video {
+  display: block;
+}
+
 .portfolio-page #large-calculator-img {
   border: none;
   width: 100%;
@@ -403,6 +411,15 @@ textarea {
   border-style: none none dashed;
   text-decoration: none;
   border-width: 1px;
+}
+
+@media (max-width: 600px) {
+  .portfolio-page .gif {
+    display: block;
+  }
+  .portfolio-page .video {
+    display: none;
+  }
 }
 
 #spacer {
@@ -520,6 +537,13 @@ header,
 #contact {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.link {
+  color: #7e7e7e;
+  border-style: none none dashed;
+  text-decoration: none;
+  border-width: 1px;
 }
 
 .active {

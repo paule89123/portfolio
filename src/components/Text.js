@@ -17,7 +17,7 @@ function Text(props) {
 				<div className="interests">
 					<Interest title="CURRENTLY READING" subtitle="The Complete Manual of Typography" subtitle2="by James Felici" />
 					<Interest title="CURRENTLY LEARNING" subtitle="Figma" subtitle2="design app" />
-					<Interest title="CURRENTLY LISTENING TO" subtitle="Making Sense" subtitle2="a podcast by Sam Harris" />
+					<Interest title="CURRENTLY LISTENING TO" subtitle="Artificial Intelligence" subtitle2="a podcast by Lex Fridman" />
 				</div>
 			}
 		</div>

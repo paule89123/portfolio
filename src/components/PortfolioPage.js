@@ -11,10 +11,12 @@ function PortfolioPage(props) {
 		<div className="portfolio-page">
 			
 			{props.id === 'calculator' ? 
-				<img id="large-calculator-img" className="portfolio-page__media" src={props.img} /> 
+				<img id="large-calculator-img" className="portfolio-page__media" src={props.img} alt={props.alt} /> 
 				:
-				<video src={props.video} className="portfolio-page__media" controls />
+				<video src={props.video} className="portfolio-page__media video" controls />
 			}
+
+			{props.id !== 'calculator' && <img src={props.gif} className="portfolio-page__media gif" alt={props.alt} />}
 
 			{props.id === 'joanne-site' && 
 			<Text title={props.title}> 
@@ -62,6 +64,17 @@ function PortfolioPage(props) {
 					I made this as an exercise when learning Javascript. One of the things that I found interesting about this exercise was that the majority of the code was only needed to prevent bugs or unwanted behaviour (such as preventing multiple presses of the operator buttons).
 					<br /><br />
 					It is also available to download as an app on Android <a className="link" href="https://build.phonegap.com/apps/3837516/builds" target="_blank" rel="noopener">here</a>. 
+
+					<br /><br />
+					{props.link} &nbsp; • &nbsp; {props.code}
+				</div>
+			</Text>
+			}
+
+			{props.id === 'spotifyPlaylistMaker' && 
+			<Text title={props.title}> 
+				<div>
+					This React based web app uses the Spotify API to allow users to search for songs, create a custom playlist and save it to their Spotify account. I made this as an exercise in learning how to make API calls using the fetch method. 
 
 					<br /><br />
 					{props.link} &nbsp; • &nbsp; {props.code}

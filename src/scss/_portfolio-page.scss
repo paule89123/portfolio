@@ -9,6 +9,12 @@
         border: 1px solid rgba(0,0,0,0.1);
         outline: none;
     }
+    .gif {
+        display: none;
+    }
+    .video {
+        display: block;
+    }
     #large-calculator-img {
         border: none;
         width: 100%;
@@ -25,4 +31,18 @@
         text-decoration: none;
         border-width: 1px;
       }
+}
+
+
+
+
+@media (max-width: 600px) {
+    .portfolio-page {
+        .gif {
+        display: block;
+        }
+        .video {
+            display: none;
+        }
+    }
 }
