@@ -20,9 +20,9 @@ import remindersGif from './videos/reminders.gif'
 
 function App() {
 
-  const joanneSiteTitle = <a className="large-link" href="https://paule89123.github.io/Joanne-site" target="_blank" rel="noopener"><div>joanne-evans<span className="blue-text">.</span>com</div></a>
+  const joanneSiteTitle = <a className="large-link" href="https://joanne-evans.com/" target="_blank" rel="noopener"><div>joanne-evans<span className="blue-text">.</span>com</div></a>
 
-  const coverfulTitle = <a className="large-link" href="https://paule89123.github.io/coverful/" target="_blank" rel="noopener"><div>Coverful<span className="blue-text">.</span></div></a>
+  const coverfulTitle = <a className="large-link" href="https://coverful.co.uk/" target="_blank" rel="noopener"><div>Coverful<span className="blue-text">.</span></div></a>
 
   const calculatorTitle = <a className="large-link" href="https://paule89123.github.io/calculator" target="_blank" rel="noopener"><div>Calculator<span className="blue-text">.</span></div></a>
 
@@ -42,9 +42,9 @@ function App() {
   const spotifyPlaylistMakerCode = <span><a className="link" href="https://github.com/paule89123/spotify-playlist-maker" target="_blank" rel="noopener">See the code</a></span>
 
 
-  const joanneSiteLink = <span><a className="link" href="https://paule89123.github.io/Joanne-site/" target="_blank" rel="noopener">joanne-evans.com</a></span>
+  const joanneSiteLink = <span><a className="link" href="https://joanne-evans.com/" target="_blank" rel="noopener">joanne-evans.com</a></span>
   
-  const coverfulLink = <span><a className="link" href="https://paule89123.github.io/coverful/" target="_blank" rel="noopener">coverful.co.uk</a></span>
+  const coverfulLink = <span><a className="link" href="https://coverful.co.uk/" target="_blank" rel="noopener">coverful.co.uk</a></span>
   
   const calculatorLink = <span><a className="link" href="https://paule89123.github.io/calculator/" target="_blank" rel="noopener">See the web app</a></span>
   
@@ -56,19 +56,19 @@ function App() {
   return (
     <div id="app">
         <Switch>
-            <Route exact path={process.env.PUBLIC_URL + "/"}>
+            <Route exact path="/">
                 <Header loc="home" />
                 <Home />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/about"}>
+            <Route path="/about">
                 <Header />
                 <About />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/cv"}>
+            <Route path="/cv">
                 <Header />
                 <CV />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/joanne-site"}>
+            <Route path="/joanne-site">
                 <Header />
                 <PortfolioPage
                     video={joanneSite}
@@ -80,7 +80,7 @@ function App() {
                     link={joanneSiteLink}
                 />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/coverful"}>
+            <Route path="/coverful">
                 <Header />
                 <PortfolioPage
                     video={coverful}
@@ -92,7 +92,7 @@ function App() {
                     link={coverfulLink}
                 />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/calculator-app"}>
+            <Route path="/calculator-app">
                 <Header />
                 <PortfolioPage
                     img={calculator}
@@ -103,19 +103,19 @@ function App() {
                     link={calculatorLink}
                 />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/reminders-app"}>
+            <Route path="/reminders-app">
                 <Header />
                 <PortfolioPage
                     video={reminders}
                     gif={remindersGif}
-                    alt="GIF of Reinders app"
+                    alt="GIF of Reminders app"
                     title={remindersTitle}
                     id="reminders"
                     code={remindersCode}
                     link={remindersLink}
                 />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/spotify-playlist-maker"}>
+            <Route path="/spotify-playlist-maker">
                 <Header />
                 <PortfolioPage
                     video={spotifyPlaylistMaker}
@@ -127,9 +127,13 @@ function App() {
                     link={spotifyPlaylistMakerLink}
                 />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/contact"}>
+            <Route path="/contact">
                 <Header />
                 <Contact />
+            </Route>
+            <Route path="/portfolio">
+                <Header loc="home" />
+                <Home />
             </Route>
         </Switch>
         <Footer />

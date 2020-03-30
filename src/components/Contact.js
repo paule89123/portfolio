@@ -15,12 +15,12 @@ function Contact() {
 		    		Contact<span className="blue-text">.</span>
 		    	</div>
 	    		<div id="contact-description">
-		    		To get in touch, you can email me at <a className="blue-link" href="mailto:paulevans89@gmail.com"><span className="blue-text">paulevans89@gmail.com</span></a> or send me a message using the contact form and I will try to respond as quickly as I can.
+		    		To get in touch, you can email me at <a className="blue-link" href="mailto:hello@paulevans.tech"><span className="blue-text">hello@paulevans.tech</span></a> or send me a message using the contact form and I will try to respond as quickly as I can.
 		    	</div>
 		    </div>
 
 	        <div id="contact-right-column">
-				<form name="contactform" method="post" action="https://usebasin.com/f/c6656906add3">
+				<form name="contactform" method="post" action="https://usebasin.com/f/adbcb51dcb04">
 			        <div className="input-container">
 				        <input placeholder=" " type="text" name="name" id="name" required autocomplete="off" />
 				        <label for="name">

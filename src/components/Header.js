@@ -47,7 +47,7 @@ function Header(props) {
         <header>
 
             <div id="logo-and-burger-container">
-                <Link to={process.env.PUBLIC_URL + "/"}>paulevans</Link>
+                <Link to="/">paulevans</Link>
                 <img onClick={toggleMenu} id="burger" src={menuIcon} alt="menu" />
             </div>
 
@@ -55,9 +55,9 @@ function Header(props) {
             <nav id="nav-large-devices">
                 <div className="nav__link">
                     {props.loc === "cv" ? 
-                        <Link to={process.env.PUBLIC_URL + "/cv"} className="active">CV</Link>
+                        <Link to="/cv" className="active">CV</Link>
                         :
-                        <Link to={process.env.PUBLIC_URL + "/cv"}>CV</Link>
+                        <Link to="/cv">CV</Link>
                     }
                 </div>
                 <div className="nav__link">
@@ -73,14 +73,14 @@ function Header(props) {
                             PORTFOLIO
                         </LinkScroll>
                         :
-                        <HashLink to={process.env.PUBLIC_URL + "/#portfolio"}>PORTFOLIO</HashLink>
+                        <HashLink to="/#portfolio">PORTFOLIO</HashLink>
                     }
                 </div>
                 <div className="nav__link">
                     {props.loc === "about" ? 
-                        <Link to={process.env.PUBLIC_URL + "/about"} className="active">ABOUT</Link>
+                        <Link to="/about" className="active">ABOUT</Link>
                         :
-                        <Link to={process.env.PUBLIC_URL + "/about"}>ABOUT</Link>
+                        <Link to="/about">ABOUT</Link>
                     }
                 </div>
             </nav>
@@ -89,9 +89,9 @@ function Header(props) {
             <nav id="nav-small-devices" style={styleObj}>
                 <div className="nav__link" onClick={removeMenu}>
                     {props.loc === "cv" ? 
-                        <Link to={process.env.PUBLIC_URL + "/cv"} className="active">CV</Link>
+                        <Link to="/cv" className="active">CV</Link>
                         :
-                        <Link to={process.env.PUBLIC_URL + "/cv"}>CV</Link>
+                        <Link to="/cv">CV</Link>
                     }
                 </div>
                 <div className="nav__link" onClick={removeMenu}>
@@ -108,14 +108,14 @@ function Header(props) {
                             PORTFOLIO
                         </LinkScroll>
                         :
-                        <div onClick={removeMenu}><HashLink to={process.env.PUBLIC_URL + "/#portfolio"}>PORTFOLIO</HashLink></div>
+                        <div onClick={removeMenu}><HashLink to="/#portfolio">PORTFOLIO</HashLink></div>
                     }
                 </div>
                 <div className="nav__link" onClick={removeMenu}>
                     {props.loc === "about" ? 
-                        <Link to={process.env.PUBLIC_URL + "/about"} className="active">ABOUT</Link>
+                        <Link to="/about" className="active">ABOUT</Link>
                         :
-                        <Link to={process.env.PUBLIC_URL + "/about"}>ABOUT</Link>
+                        <Link to="/about">ABOUT</Link>
                     }
                 </div>
             </nav>
