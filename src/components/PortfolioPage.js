@@ -39,7 +39,7 @@ function PortfolioPage(props) {
 					<br /><br />
 					I built the front-end entirely from scratch using HTML/CSS and vanilla Javascript, including the predictive search function, which is demonstrated in the above video. I used Shopify Lite for the back-end, which handles the ‘Add to Cart’ and ‘Checkout’ functionality.
 					<br /><br />
-					This was my first experience of using any kind of Inventory Management System. I added the first one hundred or so products myself and then handed over the reigns to the owner of the website, Lewis Bracken, who has since added hundreds more designs. Although listing hundreds of products was a rather lengthy process, it was actually pretty painless thanks to Shopify's website which I found to be very intuitive and easy to use.
+					I find Shopify’s Inventory Management System to be very good. Although listing hundreds of products is a rather lengthy process, it’s actually pretty painless thanks to Shopify’s well designed and intuitive UX/UI.
 					<br /><br />
 					{props.link} &nbsp; • &nbsp; {props.code}
 				</div>
@@ -75,6 +75,21 @@ function PortfolioPage(props) {
 			<Text title={props.title}> 
 				<div>
 					This React based web app uses the Spotify API to allow users to search for songs, create a custom playlist and save it to their Spotify account. I made this as an exercise in learning how to make API calls using the fetch method. 
+
+					<br /><br />
+					{props.link} &nbsp; • &nbsp; {props.code}
+				</div>
+			</Text>
+			}
+
+			{props.id === 'mernTips' && 
+			<Text title={props.title}> 
+				<div>
+					MERN Tips is a single page app (SPA) that I made with React on the front-end and Node.js and MongoDB on the back-end. It is intended to serve as a resource for coders looking to increase their knowledge of the MERN stack. 
+				<br /><br />
+				Users are able to register for a free account and then make posts after answering a coding question to demonstrate a basic level of coding knowledge.
+				<br /><br />
+					I implemented authentication using <a className="link" href="https://jwt.io/" target="_blank" rel="noopener">JSON web tokens (JWT)</a> which are stored locally on the client's browser when a user logs in and then removed when the user logs out.
 
 					<br /><br />
 					{props.link} &nbsp; • &nbsp; {props.code}

@@ -11,9 +11,9 @@ function About() {
 
 			<Text title=<div>About Me<span className="blue-text">.</span></div> page="about"> 
 				<div>
-					Hi, I’m Paul. I am a self-taught front-end developer based in London with a background in science.
+					Hi, I’m Paul. I am a front-end developer based in London with a background in science.
 					<br /><br />
-					I am proficient in HTML, CSS, Javascript (ES6) and React as well as the use of Git/Github for version control and npm for managing dependencies. 
+					I am proficient in HTML, CSS, Javascript (ES6+) and also have experience using Node.js, Express and MongoDB.
 					<br /><br />
 					I graduated from Oxford University in 2012 with a Master’s degree in Biochemistry, following which I worked at Pfizer as an analytical chemist and subsequently at GlaxoSmithKline as a senior scientist.
 					<br /><br />

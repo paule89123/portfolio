@@ -5,6 +5,7 @@ import joanne from '../images/joanne.png'
 import calculator from '../images/calculator.jpg'
 import reminders from '../images/reminders.png'
 import spotify from '../images/spotify.png'
+import merntips from '../images/merntips.png'
 import me from '../images/me.png'
 import meFade from '../images/me-fade.png'
 import $ from 'jquery'
@@ -24,6 +25,7 @@ function Home() {
         var scrollZone4 = $('.fade4').position().top - 660;
         var scrollZone5 = $('.fade5').position().top - 660;
         var scrollZone6 = $('.fade6').position().top - 660;
+        var scrollZone7 = $('.fade7').position().top - 660;
 
         if (scrollZone1 < windowTop) {
             $('.fade1').addClass('visible');
@@ -49,6 +51,10 @@ function Home() {
             $('.fade6').addClass('visible');
             $('.fade6').removeClass('invisible');
         }
+        if (scrollZone7 < windowTop) {
+            $('.fade7').addClass('visible');
+            $('.fade7').removeClass('invisible');
+        }
     }
 
     return (
@@ -58,7 +64,7 @@ function Home() {
                     <div className="display-text">
                         <div className="display-text__1 large-devices-only">HELLO!</div>
                         <div className="display-text__2 large-devices-only">I’m Paul<span className="blue-text">.</span></div>
-                        <div className="display-text__3 large-devices-only">I'm a self-taught front-end developer</div>
+                        <div className="display-text__3 large-devices-only">I'm a front-end web developer</div>
                         <div id="mobile-only-1" className="display-text__2 mobile-only">Paul Evans<span className="blue-text">.</span></div>
                         <div id="mobile-only-2" className="display-text__3 mobile-only">Front-end developer</div>
 
@@ -76,18 +82,28 @@ function Home() {
                 <div className="home-columns__left-column">
                     <div id="spacer"></div>
                     <div className="heading fade1 invisible">
-                        Things I’ve Made<span className="blue-text">.</span>
+                        Some Things I’ve Made<span className="blue-text">.</span>
                     </div>
                     <div className="fade2 invisible">
                             <PortfolioItem 
-                                img={joanne}
-                                alt="Screenshot of Joanne Evans's website"
-                                title="joanne-evans.com"
-                                subtitle="Opera singer"
-                                link="/joanne-site"
+                                img={merntips}
+                                alt="Screenshot of MERN Tips"
+                                title="MERN Tips"
+                                subtitle="A platform for coders to share tips"
+                                link="/mern-tips"
                             />
                     </div>
                     <div className="fade3 invisible">
+                            <PortfolioItem 
+                                img={reminders}
+                                alt="Screenshot of Reminders App"
+                                title="Reminders"
+                                subtitle="Web app"
+                                link="/reminders-app"
+                            />
+                            
+                    </div>
+                    <div className="fade4 invisible">
                             <PortfolioItem 
                                 img={calculator}
                                 alt="Screenshot of Calculator App"
@@ -98,7 +114,16 @@ function Home() {
                     </div>
                 </div>
                 <div className="home-columns__right-column">
-                    <div className="fade4 invisible">
+                    <div className="fade5 invisible">
+                            <PortfolioItem 
+                                img={joanne}
+                                alt="Screenshot of Joanne Evans's website"
+                                title="joanne-evans.com"
+                                subtitle="Opera singer"
+                                link="/joanne-site"
+                            />
+                    </div>
+                    <div className="fade6 invisible">
                             <PortfolioItem 
                                 img={coverful}
                                 alt="Screenshot of coverful.co.uk"
@@ -107,16 +132,7 @@ function Home() {
                                 link="/coverful"
                             />
                     </div>
-                    <div className="fade5 invisible">
-                            <PortfolioItem 
-                                img={reminders}
-                                alt="Screenshot of Reminders App"
-                                title="Reminders"
-                                subtitle="Web app"
-                                link="/reminders-app"
-                            />
-                    </div>
-                    <div className="fade6 invisible">
+                    <div className="fade7 invisible">
                             <PortfolioItem 
                                 img={spotify}
                                 alt="Screenshot of Spotify playlist maker"

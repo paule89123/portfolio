@@ -11,12 +11,14 @@ import { Switch, Route } from 'react-router-dom'
 import joanneSite from './videos/joanne-site-cropped.mp4'
 import coverful from './videos/coverful-cropped.mp4'
 import reminders from './videos/reminders-cropped.mp4'
+import merntips from './videos/merntips-cropped.mp4'
 import calculator from './images/calculator.jpg'
 import spotifyPlaylistMaker from './videos/spotify-playlist-maker-cropped.mp4'
 import spotifyPlaylistMakerGif from './videos/spotify-playlist-maker.gif'
 import coverfulGif from './videos/coverful.gif'
 import joanneSiteGif from './videos/joanne-site.gif'
 import remindersGif from './videos/reminders.gif'
+import merntipsGif from './videos/merntips.gif'
 
 function App() {
 
@@ -30,6 +32,8 @@ function App() {
 
   const spotifyPlaylistMakerTitle = <a className="large-link" href="https://paule89123.github.io/spotify-playlist-maker" target="_blank" rel="noopener"><div>Spotify Playlist Maker<span className="blue-text">.</span></div></a>
 
+  const mernTipsTitle = <a className="large-link" href="https://merntips.herokuapp.com/" target="_blank" rel="noopener"><div>MERN Tips<span className="blue-text">.</span></div></a>
+
   
   const joanneSiteCode = <span><a className="link" href="https://github.com/paule89123/Joanne-site" target="_blank" rel="noopener">See the code</a></span>
   
@@ -41,6 +45,8 @@ function App() {
 
   const spotifyPlaylistMakerCode = <span><a className="link" href="https://github.com/paule89123/spotify-playlist-maker" target="_blank" rel="noopener">See the code</a></span>
 
+  const mernTipsCode = <span><a className="link" href="https://github.com/paule89123/MERN-tips" target="_blank" rel="noopener">See the code</a></span>
+
 
   const joanneSiteLink = <span><a className="link" href="https://joanne-evans.com/" target="_blank" rel="noopener">joanne-evans.com</a></span>
   
@@ -51,6 +57,8 @@ function App() {
   const remindersLink = <span><a className="link" href="https://paule89123.github.io/reminders-app/" target="_blank" rel="noopener">See the web app</a></span>
 
   const spotifyPlaylistMakerLink = <span><a className="link" href="https://paule89123.github.io/spotify-playlist-maker/" target="_blank" rel="noopener">See the web app</a></span>
+
+  const mernTipsLink = <span><a className="link" href="https://merntips.herokuapp.com/" target="_blank" rel="noopener">See the web app</a></span>
 
 
   return (
@@ -73,7 +81,7 @@ function App() {
                 <PortfolioPage
                     video={joanneSite}
                     gif={joanneSiteGif}
-                    alt=""
+                    alt="GIF of Joanne's site"
                     title={joanneSiteTitle}
                     id="joanne-site"
                     code={joanneSiteCode}
@@ -90,6 +98,18 @@ function App() {
                     id="coverful"
                     code={coverfulCode}
                     link={coverfulLink}
+                />
+            </Route>
+            <Route path="/mern-tips">
+                <Header />
+                <PortfolioPage
+                    video={merntips}
+                    gif={merntipsGif}
+                    alt="GIF of MERN Tips"
+                    title={mernTipsTitle}
+                    id="mernTips"
+                    code={mernTipsCode}
+                    link={mernTipsLink}
                 />
             </Route>
             <Route path="/calculator-app">
